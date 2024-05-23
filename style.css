@@ -1,26 +1,38 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #cae6ff;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #cae6ff;
+  font-size: 18px;
+}
+
+p {
+  max-width: 70ch;
+  text-wrap: balance;
 }
 
 .page-heading {
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .center-container {
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.center-container ul {
-    margin-left: 30px;
-    list-style-type: none;
-    font-size: 20px;
+.center-container .links {
+  margin-left: 30px;
+  list-style-type: none;
+  font-size: 20px;
 }
 
 .center-container ul a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.dish-image {
+  width: 600px;
+  height: auto;
+  margin-bottom: 50px;
 }
