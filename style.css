@@ -1,3 +1,26 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #cae6ff;
+}
+
+.page-heading {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.center-container {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-container ul {
+    margin-left: 30px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.center-container ul a {
+    text-decoration: none;
 }
