@@ -51,7 +51,7 @@ p {
 .dish-image {
   border-radius: 30px;
   box-sizing: border-box;
-  width: 720px;
-  height: auto;
+  width: 700px;
+  height: 500px;
   border: 30px solid #D6EAF8;
 }
